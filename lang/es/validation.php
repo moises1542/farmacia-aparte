@@ -1,0 +1,60 @@
+<?php
+
+return [
+
+    'after_or_equal'   => 'El campo :attribute debe ser una fecha posterior o igual a :date.',
+    'array'            => 'El campo :attribute debe ser una lista.',
+    'before_or_equal'  => 'El campo :attribute debe ser una fecha anterior o igual a :date.',
+    'confirmed'        => 'La confirmación del campo :attribute no coincide.',
+    'current_password' => 'La contraseña es incorrecta.',
+    'date'             => 'El campo :attribute debe ser una fecha válida.',
+    'date_format'      => 'El campo :attribute debe tener el formato :format.',
+    'digits'           => 'El campo :attribute debe tener :digits dígitos.',
+    'digits_between'   => 'El campo :attribute debe tener entre :min y :max dígitos.',
+    'distinct'         => 'El campo :attribute tiene un valor repetido.',
+    'email'            => 'El campo :attribute debe ser un correo válido.',
+    'exists'           => 'El valor seleccionado en :attribute no es válido.',
+    'integer'          => 'El campo :attribute debe ser un número entero.',
+    'max'              => [
+        'array'   => 'El campo :attribute no debe tener más de :max elementos.',
+        'numeric' => 'El campo :attribute no debe ser mayor que :max.',
+        'string'  => 'El campo :attribute no debe tener más de :max caracteres.',
+    ],
+    'min'              => [
+        'array'   => 'El campo :attribute debe tener al menos :min elementos.',
+        'numeric' => 'El campo :attribute debe ser como mínimo :min.',
+        'string'  => 'El campo :attribute debe tener al menos :min caracteres.',
+    ],
+    'numeric'          => 'El campo :attribute debe ser un número.',
+    'required'         => 'El campo :attribute es obligatorio.',
+    'size'             => [
+        'array'   => 'El campo :attribute debe tener :size elementos.',
+        'numeric' => 'El campo :attribute debe ser :size.',
+        'string'  => 'El campo :attribute debe tener :size caracteres.',
+    ],
+    'string'           => 'El campo :attribute debe ser un texto.',
+    'unique'           => 'El valor del campo :attribute ya está registrado.',
+
+    'attributes' => [
+        'name'             => 'nombre',
+        'description'      => 'descripción',
+        'role_id'          => 'rol',
+        'dni'              => 'DNI',
+        'phone'            => 'teléfono',
+        'tuition'          => 'colegiatura',
+        'email'            => 'correo',
+        'password'         => 'contraseña',
+        'current_password' => 'contraseña actual',
+        'age'              => 'edad',
+        'category_id'      => 'categoría',
+        'price'            => 'precio',
+        'stock'            => 'stock',
+        'customer_id'      => 'cliente',
+        'date'             => 'fecha',
+        'medicine_id'      => 'medicamento',
+        'amount'           => 'cantidad',
+        'from'             => 'fecha inicial',
+        'to'               => 'fecha final',
+    ],
+
+];
